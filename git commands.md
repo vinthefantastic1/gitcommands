@@ -1,14 +1,16 @@
 # check configuration
 	git config --list
-	#help git help config 
+# help 
+	git help config 
 
 # remove items from staging
 	git reset
+	
 # see log
 	git log
 
 
-#clone a repo
+# clone a repo
 
 	git clone <url> <where to clone>
 	git clone https://github.com/sdfsdfs sf sdfsf .  (dot means current directory)
@@ -20,7 +22,7 @@
 # show changes
 	git diff
 
-#to send to repository
+# to send to repository
 	// origin = name of remote repository
 	// master = branch of remote repository
 	git pull origin master
