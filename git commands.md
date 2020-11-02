@@ -1,38 +1,38 @@
 # check configuration
-git config --list
-#help git help config 
+	git config --list
+	#help git help config 
 
 # remove items from staging
-git reset
+	git reset
 # see log
-git log
+	git log
 
 
 #clone a repo
 
-git clone <url> <where to clone>
-git clone https://github.com/sdfsdfs sf sdfsf .  (dot means current directory)
+	git clone <url> <where to clone>
+	git clone https://github.com/sdfsdfs sf sdfsf .  (dot means current directory)
 
 # view information
-git remote -view
-git branch -a
+	git remote -view
+	git branch -a
 
 # show changes
-git diff
+	git diff
 
 #to send to repository
-# origin = name of remote repository
-# master = branch of remote repository
-git pull origin master
-git push origin master
+	// origin = name of remote repository
+	// master = branch of remote repository
+	git pull origin master
+	git push origin master
 
-## COMMON WORKFLOW:
+## Common Workflow:
 	# Create a BRANCH  of desired feature that you're working on
 	git branch my-new-feature
 	# to start working on branch, check it out
 	git checkout my-new-feature
 	#after commiting to new repository
-	git puush -u origin my-new-feature
+	git push -u origin my-new-feature
 	### after UNIT tests worked fine. THEN MERGE
 	
 	git checkout master
