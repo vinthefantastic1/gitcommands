@@ -41,12 +41,12 @@
 	
 ### after UNIT tests worked fine. THEN MERGE
 
-	git checkout master
-	git pull origin master
+	git checkout main
+	git pull origin main
 
 	git branch --merged
 	git merge my-new-feature
-	git push origin master
+	git push origin main
 
 #### AFTER you have merged your feature branch you can delete the branch
 
