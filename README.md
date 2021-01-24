@@ -25,11 +25,13 @@
 
 #### to send to repository
 	// origin = name of remote repository
-	// master = branch of remote repository
-	git pull origin master
-	git push origin master
+	// main = branch of remote repository
+	git pull origin main
+	git push origin main
 
 ### Common Workflow:
+
+    
 #### Create a BRANCH  of desired feature that you're working on
 	git branch my-new-feature
 #### to start working on branch, check it out
