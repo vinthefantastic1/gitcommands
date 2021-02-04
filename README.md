@@ -71,7 +71,7 @@
 #### MOVE feature to a different branch
 	git cherry-pick
 
-#### you want to remove a commit from the master branch
+#### you want to remove a commit from the main branch
 	git reset --soft  (hash of commit)
 #### use this one most of the time
 	git reset --mixed  hash of commit (default if not speciified)
