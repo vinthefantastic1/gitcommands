@@ -38,7 +38,7 @@
 	git checkout my-new-feature
 #### after commiting to new repository
 	git push -u origin my-new-feature
-	git-branch --show-current
+	git branch --show-current
 	
 ### after UNIT tests worked fine. THEN MERGE
 
