@@ -7,6 +7,9 @@
 #### remove items from staging
 	git reset
 	
+#### remove a single file
+	git rm --cached $FILE
+	
 #### see log
 	git log
 
