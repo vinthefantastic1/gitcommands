@@ -13,6 +13,8 @@
 #### see log
 	git log
 
+#### show last commit
+	git log -1
 
 #### clone a repo
 
