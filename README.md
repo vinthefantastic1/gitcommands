@@ -1,4 +1,14 @@
 ## Some Useful Git Commands
+
+#### rename branch
+	git branch -m master main
+	
+	// create a new branch on the remote named "main"
+	git push -u origin main
+	
+	// delete the old branch
+	git push origin --delete master
+	
 #### check configuration
 	git config --list
 #### help 
