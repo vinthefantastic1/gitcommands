@@ -9,6 +9,10 @@
 	// delete the old branch
 	git push origin --delete master
 	
+#### Push to only 1 of multiple remotes
+	git push origin
+	git push origin2
+	
 #### check configuration
 	git config --list
 #### help 
